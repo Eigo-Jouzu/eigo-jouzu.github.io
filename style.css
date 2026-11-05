@@ -98,8 +98,11 @@ footer {
 	border-radius: 2px;
 	position: absolute;
 	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.25s;
 }
 
 .tooltip:hover .tooltip-text {
 	visibility: visible;
+	opacity: 1;
 }
