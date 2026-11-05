@@ -46,11 +46,12 @@ ul.hero-links {
 li.hero-link {
 
 	>a.link {
-		color: #000000;
+		color: #c1272d;
+
 		text-decoration: none;
 
 		&:hover {
-			color: #c1272d;
+			color: #c1272c9d;
 		}
 	}
 }
